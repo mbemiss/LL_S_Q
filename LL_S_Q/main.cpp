@@ -1,3 +1,9 @@
+/*
+This program implements and compares the performance of two data structures: a Stack and a Queue, both using doubly-linked lists. It measures
+the time taken to perform insert and delete operations on these data structures for different numbers of elements (100, 1000, and 10000). The 
+results are displayed in a formatted table, allowing for easy comparison of the performance characteristics of Stack and Queue operations.
+*/ 
+
 #include <iostream> // This is a header file library that lets us work with input and output objects, such as cout (used in line 12).
 #include <chrono> // This is a header file library that lets us work with time, measuring time intervals.
 #include <random> // This is a header file library that lets us work with random numbers.
